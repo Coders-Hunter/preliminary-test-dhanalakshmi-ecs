@@ -1,12 +1,11 @@
 #include <stdio.h>
-
-void check_divisibility(int num) {
-    // Expected output is "TRUE" or "FALSE"
-}
-
-int main() {
-    int num;
-    scanf("%d", &num);
-    check_divisibility(num);
-    return 0;
-}
+int main(){
+    int n;
+    printf("enter the number:");
+    scanf("%d",&num);
+    if(num%5==0){
+        printf("%d is divisible by 5.\n");
+    }else{
+        printf("%d is not divisible by 5");
+    }
+    }
