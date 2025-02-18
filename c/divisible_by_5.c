@@ -8,4 +8,5 @@ int main(){
     }else{
         printf("%d is not divisible by 5");
     }
+    return 0;
     }
