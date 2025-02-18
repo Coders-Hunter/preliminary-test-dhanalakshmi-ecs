@@ -4,9 +4,8 @@ int main(){
     printf("enter the number:");
     scanf("%d",&num);
     if(num%5==0){
-        printf("%d is divisible by 5.\n");
+        return true;
     }else{
-        printf("%d is not divisible by 5");
+        return -1;
     }
-    return 0;
     }
