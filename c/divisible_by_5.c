@@ -1,11 +1,17 @@
 #include <stdio.h>
-int main(){
-    int n;
-    printf("enter the number:");
-    scanf("%d",&num);
+
+void check_divisibility(int num) {
+    // Expected output is "TRUE" or "FALSE"
     if(num%5==0){
-        return true;
+        printf("true");
     }else{
-        return -1;
+        printf("false");
     }
-    }
+}
+
+int main() {
+    int num;
+    scanf("%d", &num);
+    check_divisibility(num);
+    return 0;
+}
